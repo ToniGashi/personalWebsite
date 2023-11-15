@@ -8,7 +8,7 @@ import { getErrorMessage, validateString } from '@/app/libs/utils';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const sendEmail = async (formData) => {
+export const sendEmail = async (formData: any) => {
   const senderEmail = formData.get('senderEmail');
   const message = formData.get('message');
 
