@@ -91,30 +91,30 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
 
-        <a
+        <Link
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/40"
           href="/CV.pdf"  
           download
         >
           Download CV{' '}
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
-        </a>
+        </Link>
 
-        <a
+        <Link
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/40 dark:text-white/60"
           href="https://www.linkedin.com/in/tonigashi/"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
+        </Link>
 
-        <a
+        <Link
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/40 dark:text-white/60"
           href="https://github.com/ToniGashi"
           target="_blank"
         >
           <FaGithubSquare />
-        </a>
+        </Link>
       </motion.div>
     </section>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
+import { FaVuejs } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 
 import NextRestaurants from '@/public/nextRestaurants.png';
@@ -36,7 +37,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Computer Science Honored Graduate',
+    title: 'Cum Laude Graduate - Computer Science',
     location: 'American University in Bulgaria, Bulgaria',
     description:
       'I graduated with honors from the American University in Bulgaria with 1 major (Computer Science) and 2 minors (Mathematics and Information Systems).',
@@ -80,7 +81,7 @@ export const experiencesData = [
     location: 'Green Funds, Blagoevgrad, Bulgaria',
     description:
       "Skills: Javascript · Vue.js, Node.js · Front-End Development · Back-End Web Development · PostgreSQL · Data Structures · Agile (SCRUM). ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaVuejs),
     date: 'Sep 2021 - Apr 2022',
   },
   {

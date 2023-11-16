@@ -25,7 +25,7 @@ export default function About() {
         <span className="font-medium">Computer Science</span> and minors in 
         Information Systems and Mathematics, I decided to pursue my
         passion for programming. I have been professionally working as a{' '}
-        <span className="font-medium">full-stack web developer</span>.{' '} since
+        <span className="font-medium">full-stack web developer</span>{' '} since
         before graduating in 2021. {' '}
       </p>
 
